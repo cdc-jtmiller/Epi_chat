@@ -1,0 +1,183 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.ML.OnnxRuntimeGenAI/0.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntimeGenAI.Managed": "0.2.0"
+        },
+        "build": {
+          "build/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.props": {},
+          "build/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/onnxruntime-genai.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/onnxruntime-genai.lib": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/onnxruntime.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/onnxruntime.lib": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.lib": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntimeGenAI.Managed/0.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "build/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.Managed.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.ML.OnnxRuntimeGenAI/0.2.0": {
+      "sha512": "44kuM1b7DZayAQlKUgNdAPNj2u1kZUkQWAcjs9KcNwMdQi2PJL0968TOAvhWb7c/lOv74Gyg5VRSJInPIsAhTw==",
+      "type": "package",
+      "path": "microsoft.ml.onnxruntimegenai/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "ThirdPartyNotices.txt",
+        "build/native/Microsoft.ML.OnnxRuntimeGenAI.props",
+        "build/native/Microsoft.ML.OnnxRuntimeGenAI.targets",
+        "build/native/include/ort_genai_c.h",
+        "build/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.props",
+        "build/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.targets",
+        "microsoft.ml.onnxruntimegenai.0.2.0.nupkg.sha512",
+        "microsoft.ml.onnxruntimegenai.nuspec",
+        "runtimes/win-x64/native/onnxruntime-genai.dll",
+        "runtimes/win-x64/native/onnxruntime-genai.lib",
+        "runtimes/win-x64/native/onnxruntime.dll",
+        "runtimes/win-x64/native/onnxruntime.lib",
+        "runtimes/win-x64/native/onnxruntime_providers_shared.dll",
+        "runtimes/win-x64/native/onnxruntime_providers_shared.lib"
+      ]
+    },
+    "Microsoft.ML.OnnxRuntimeGenAI.Managed/0.2.0": {
+      "sha512": "z7X6M9SnHoLOotwdec7U8XZ/dD/SQWdU+LEF6H9sDGC6yvFDlR/Tw6V2mq/7HdrmVJhZ1PV2+cEPsBE1d2ngoA==",
+      "type": "package",
+      "path": "microsoft.ml.onnxruntimegenai.managed/0.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "ThirdPartyNotices.txt",
+        "build/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.Managed.targets",
+        "lib/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.dll",
+        "lib/netstandard2.1/Microsoft.ML.OnnxRuntimeGenAI.pdb",
+        "microsoft.ml.onnxruntimegenai.managed.0.2.0.nupkg.sha512",
+        "microsoft.ml.onnxruntimegenai.managed.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Microsoft.ML.OnnxRuntimeGenAI >= 0.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zyp9\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Work\\CSELS\\DHIS\\Projects\\VS\\Projects\\consoleChatAI\\consoleChatAI\\consoleChatAI.csproj",
+      "projectName": "consoleChatAI",
+      "projectPath": "C:\\Work\\CSELS\\DHIS\\Projects\\VS\\Projects\\consoleChatAI\\consoleChatAI\\consoleChatAI.csproj",
+      "packagesPath": "C:\\Users\\zyp9\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\CSELS\\DHIS\\Projects\\VS\\Projects\\consoleChatAI\\consoleChatAI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\zyp9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntimeGenAI": {
+            "target": "Package",
+            "version": "[0.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

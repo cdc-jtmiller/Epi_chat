@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7SN2Wvio8cykQ5h0Ipw5bfSEnKw8uz6/mSm097OEe2mXEIGwmATRKc34VqA6q0JCZivSXRYHn9uL5bCxTHTRgw==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\CSELS\\DHIS\\Projects\\VS\\Projects\\consoleChatAI\\consoleChatAI\\consoleChatAI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zyp9\\.nuget\\packages\\microsoft.ml.onnxruntimegenai\\0.2.0\\microsoft.ml.onnxruntimegenai.0.2.0.nupkg.sha512",
+    "C:\\Users\\zyp9\\.nuget\\packages\\microsoft.ml.onnxruntimegenai.managed\\0.2.0\\microsoft.ml.onnxruntimegenai.managed.0.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
